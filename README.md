@@ -70,8 +70,6 @@ Demonstração clara de um **relacionamento 1:N**:
 
 ## 🚀 Como Executar o Projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd nome-do-projeto
-2. Abra o arquivo index.html com seu navegador (clique duas vezes ou arraste para o Chrome/Firefox
+1. Clone este repositório
+2. Navegue até a pasta do projeto
+3. Abra o arquivo index.html com seu navegador
