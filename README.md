@@ -3,7 +3,7 @@
 Este projeto é um sistema de cadastro simplificado de **Pessoas** e seus **Contatos**, desenvolvido como parte de uma **avaliação individual**. O objetivo principal é demonstrar conceitos fundamentais de desenvolvimento web, 
 **sem o uso de frameworks ou bibliotecas externas**, utilizando apenas **HTML**, **CSS** e **JavaScript puro**.
 
-📺 **[Assista ao vídeo explicativo no YouTube](https://youtu.be/_UXJUoviGkg)**
+Clique aqui para 📺 **[Assista ao vídeo explicativo no YouTube](https://youtu.be/_UXJUoviGkg)**
 
 ---
 
