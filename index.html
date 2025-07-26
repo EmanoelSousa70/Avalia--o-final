@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Simplificado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Pessoas e Contatos</h1>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Cadastrar Nova Pessoa</h2>
+            <form id="pessoaForm">
+                <label for="nomePessoa">Nome:</label>
+                <input type="text" id="nomePessoa" required>
+                <button type="submit">Cadastrar Pessoa</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Pessoas Cadastradas</h2>
+            <input type="text" id="filtroPessoas" placeholder="Filtrar por nome...">
+            <ul id="listaPessoas">
+                </ul>
+        </section>
+
+        <section id="detalhesPessoa" class="card hidden">
+            <h2 id="nomePessoaDetalhes"></h2>
+            <h3>Contatos</h3>
+            <form id="contatoForm">
+                <input type="hidden" id="idPessoaContato">
+                <label for="tipoContato">Tipo:</label>
+                <select id="tipoContato">
+                    <option value="Telefone">Telefone</option>
+                    <option value="Email">Email</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                <label for="valorContato">Valor:</label>
+                <input type="text" id="valorContato" required>
+                <button type="submit">Adicionar Contato</button>
+            </form>
+            <ul id="listaContatos">
+                </ul>
+            <button id="voltarPessoas">Voltar para Pessoas</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Avaliação Individual</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
