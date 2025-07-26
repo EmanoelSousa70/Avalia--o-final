@@ -54,7 +54,7 @@ Demonstração clara de um **relacionamento 1:N**:
 
 - `HTML5`
 - `CSS3`
-- `JavaScript (Vanilla)`
+- `JavaScript`
 - `LocalStorage`
 
 ---
